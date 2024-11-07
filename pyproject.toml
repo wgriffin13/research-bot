@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "research-bot"
+version = "0.1.0"
+description = ""
+authors = ["William Griffin <william@brighthire.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.1.2"
+yfinance = "^0.2.48"
+matplotlib = "^3.9.2"
+ruff = "^0.7.1"
+jupyterlab = "^4.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
